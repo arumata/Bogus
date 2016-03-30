@@ -1,3 +1,11 @@
+## v6.1.1
+* Roll-up Release for .NET Framework since last non-beta release.
+* CoreCLR users please continue using latest beta release until CoreCLR is RTM.
+
+## v6.1.1-beta-1
+* Fixed index out of bounds bug in faker.Random.Word().
+* Commerce.Department output may have changed as a result of this fix.
+
 ## v5.1.1-beta-3
 * Removed RuleFor(x = x.Prop, constantValue), was confusing the API.
 * Added 0-arity RuleFor(x = x.Prop, () => someValue)
@@ -35,7 +43,6 @@
 * Added more parameters for Image data set.
 * BREAKING API METHODS:
 * Lorem - Better API methods: Seeded tests based on "content" will fail due to upgrade.
-
 
 ## v3.0.6
 * Roll-up Release for .NET Framework since v3.0.5.
